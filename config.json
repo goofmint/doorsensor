@@ -1,0 +1,9 @@
+{
+  "domain": "doorsensor.echopf.com",
+  "applicationId": "05b22a71eeeb33732cb9cdbcf2086441",
+  "applicationKey": "35735efe083916a085f35f10690a9bcb",
+  "memberInstanceId": "admin",
+  "login_id": "admin",
+  "password": "password",
+  "databaseInstanceId": "doorsensor"
+}

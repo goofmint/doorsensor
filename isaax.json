@@ -1,0 +1,13 @@
+{
+  "name": "hello-isaax",
+  "version": "",
+  "description": "Node.js - raspberry-pi",
+  "main": "app.js",
+  "author": "",
+  "license": "",
+  "language":"node",
+  "scripts": {
+     "start": "node app.js"
+    },
+   "dependency": null
+}
