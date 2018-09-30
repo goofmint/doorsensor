@@ -26,6 +26,7 @@ const add = async (value) => {
   entry.put('refid', Math.random().toString(36).slice(-8));
   entry.put('title', 'Test');
   entry.put('contents', {
+    'time': Date.now(),
     'value': value
   });
   try {
