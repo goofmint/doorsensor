@@ -40,7 +40,7 @@ const main = async () => {
   const user = await login();
   let old = null;
   setInterval( async () => {
-    adc.read(channel, function (value) {
+    adc.read(channel, async (value) => {
       if (value != old) {
         const result = await add(value);
         old = value;
